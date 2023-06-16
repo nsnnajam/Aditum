@@ -74,27 +74,27 @@ class _HomePagesecreenState extends State<HomePagesecreen> {
                 ),
 
                 recomendcard("Dr. Vincent Bouchard ", "University of Montreal",
-                    "Infectious Disease", "Rheumatic or neurologic ?"),
+                    "Infectious Disease", "Rheumatic or neurologic ?",""),
 
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child:
-                      myText("Newest Cases", Colors.black, 15, FontWeight.w600),
-                ),
-                recomendcard("Dr. Alan Baker ", " Cornell University",
-                    "Gynecology", "Menstrual bleeds"),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: myText(
-                      "Popular Right Now", Colors.black, 15, FontWeight.w600),
-                ),
-                recomendcard("Dr. Alan Baker ", " Cornell University",
-                    "Gynecology", "Menstrual bleeds"),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: myText(
-                      "Remember About", Colors.black, 15, FontWeight.w600),
-                ),
+                // Padding(
+                //   padding: const EdgeInsets.all(8.0),
+                //   child:
+                //       myText("Newest Cases", Colors.black, 15, FontWeight.w600),
+                // ),
+                // recomendcard("Dr. Alan Baker ", " Cornell University",
+                //     "Gynecology", "Menstrual bleeds"),
+                // Padding(
+                //   padding: const EdgeInsets.all(8.0),
+                //   child: myText(
+                //       "Popular Right Now", Colors.black, 15, FontWeight.w600),
+                // ),
+                // recomendcard("Dr. Alan Baker ", " Cornell University",
+                //     "Gynecology", "Menstrual bleeds"),
+                // Padding(
+                //   padding: const EdgeInsets.all(8.0),
+                //   child: myText(
+                //       "Remember About", Colors.black, 15, FontWeight.w600),
+                // ),
                 rememberAbout()
               ],
               //main cllmn

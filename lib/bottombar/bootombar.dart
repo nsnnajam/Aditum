@@ -4,6 +4,7 @@ import 'package:aditum/bottombar/tabbarLibrary.dart';
 import 'package:aditum/secreen/Home/Home_page.dart';
 import 'package:flutter/material.dart';
 
+import '../api/dumyjasomapi.dart';
 import '../secreen/Home/bookmarks.dart';
 import '../secreen/Home/explore_secreen.dart';
 import '../secreen/Home/mylibrary.dart';
@@ -25,7 +26,8 @@ class _BottombarState extends State<Bottombar> {
     LibraryTabbar(),
     HomePagesecreen(),
     BookmarksSecreen(),
-    ProfileSecreen(),
+    // ProfileSecreen(),
+    LastExampleScreen()
   ];
 
   void _onItemTapped(int index) {

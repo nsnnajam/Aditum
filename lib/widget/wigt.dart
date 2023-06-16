@@ -1,12 +1,17 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:aditum/api/details_secreen.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 
 Widget myText(String txt, color, double size, font) {
   return Text(
     txt,
-    style: TextStyle(color: color, fontSize: size, fontWeight: font),
+    style: TextStyle(
+        color: color,
+        fontSize: size,
+        fontWeight: font,
+        overflow: TextOverflow.ellipsis),
   );
 }
 
@@ -136,7 +141,7 @@ Widget cardcaseday() {
   );
 }
 
-Widget recomendcard(String drname, uniname, catgoryname, diases) {
+Widget recomendcard(String drname, uniname, catgoryname, diases, pic) {
   return Container(
     decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
@@ -164,21 +169,30 @@ Widget recomendcard(String drname, uniname, catgoryname, diases) {
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 children: [
-                  Image.asset("assets/profile.png"),
+                  SizedBox(height: 40, width: 30, child: Image.network(pic)),
                   const SizedBox(
                     width: 6,
                   ),
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           myText(drname, const Color(0xffFFFFFF), 12,
                               FontWeight.bold),
                           Image.asset("assets/check.png"),
                         ],
                       ),
-                      myText(uniname, const Color(0xffFFFFFF), 12,
-                          FontWeight.w400),
+                      SizedBox(
+                        width: 160,
+                        child: myText(
+                          uniname,
+                          const Color(0xffFFFFFF),
+                          12,
+                          FontWeight.w400,
+                        ),
+                      ),
                     ],
                   )
                 ],

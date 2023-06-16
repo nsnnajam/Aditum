@@ -28,32 +28,32 @@ class _MylibrarySecreenState extends State<MylibrarySecreen> {
                         "Dr. Alan Baker ",
                         " Cornell University",
                         "Gynecology",
-                        "Menstrual bleeds"),
+                        "Menstrual bleeds",""),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: recomendcard(
-                        "Dr. Alan Baker ",
-                        " Cornell University",
-                        "Gynecology",
-                        "Menstrual bleeds"),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: recomendcard(
-                        "Dr. Alan Baker ",
-                        " Cornell University",
-                        "Gynecology",
-                        "Menstrual bleeds"),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: recomendcard(
-                        "Dr. Alan Baker ",
-                        " Cornell University",
-                        "Gynecology",
-                        "Menstrual bleeds"),
-                  ),
+                  // Padding(
+                  //   padding: const EdgeInsets.all(10.0),
+                  //   child: recomendcard(
+                  //       "Dr. Alan Baker ",
+                  //       " Cornell University",
+                  //       "Gynecology",
+                  //       "Menstrual bleeds"),
+                  // ),
+                  // Padding(
+                  //   padding: const EdgeInsets.all(10.0),
+                  //   child: recomendcard(
+                  //       "Dr. Alan Baker ",
+                  //       " Cornell University",
+                  //       "Gynecology",
+                  //       "Menstrual bleeds"),
+                  // ),
+                  // Padding(
+                  //   padding: const EdgeInsets.all(10.0),
+                  //   child: recomendcard(
+                  //       "Dr. Alan Baker ",
+                  //       " Cornell University",
+                  //       "Gynecology",
+                  //       "Menstrual bleeds"),
+                  // ),
                   // cardcatagory(),
                 ],
               ),
